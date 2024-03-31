@@ -1,0 +1,33 @@
+#rose-bar{
+    top: -30px;
+    position: relative;
+}
+
+.Emonth{
+    width: 20px;
+    height: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+#box-m{
+    display: grid;
+    grid-template-columns: repeat(10, 20px);
+    grid-row-gap: 7px;
+    grid-column-gap: 7px;
+
+}
+
+.Eyear{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(107, 97, 97);
+    border-radius: 5px;
+}
+
+#box-y{
+    display: grid;
+    grid-template-columns: repeat(10, 20px);
+    grid-row-gap: 7px;
+    grid-column-gap: 7px;
+
+}

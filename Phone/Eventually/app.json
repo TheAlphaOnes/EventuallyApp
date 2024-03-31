@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Eventually",
+    "slug": "Eventually",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#685089"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#685089"
+      },
+      "package": "com.thenormvg.Eventually"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#252525",
+      "translucent": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "085115d5-bdd7-4075-a2fd-39345e25662f"
+      }
+    },
+    "permissions": [
+      "CAMERA",
+      "RECORD_AUDIO",
+      "MICROPHONE"
+    ]
+  
+  }
+}
